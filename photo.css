@@ -1,0 +1,160 @@
+/* Sets the intial font, height, and background color */
+html {
+  min-height: 2000px;
+  font-family: Georgia;
+  background: radial-gradient(ellipse at bottom, #293c52 0%, #10131c 100%);
+}
+
+/* Sets the fixed header */
+.navigate {
+  box-shadow: 0px 2px 10px #999;
+  background-color: #808080;
+  position: fixed;
+  height: 10%;
+  top: 0;
+  width: 100%;
+  right: 0;
+  z-index: 100;
+}
+
+/* Leaves some space between the logo and the leftmost border */
+.menu {
+  padding-right: 2%;
+}
+
+/* Styles the navigator */
+.menu a {
+  float: right;
+  color: white;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Logo of the panel */
+.logo img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  padding-left: 4%;
+  padding-top: 0.2%;
+}
+
+/* Logo of the panel */
+.photoTitle {
+  color: black;
+  position: absolute;
+  font-size: 30px;
+  left: 46%;
+  top: 0.1%;
+}
+
+.photoTitle:hover {
+  color: Gray;
+}
+
+.photoTitle:visited{
+  text-decoration: none;
+}
+
+.whatever {
+  position: absolute;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+}
+
+/* Change the color of links on hover */
+a:hover {
+  color: Gray;
+}
+
+.portrait {
+  position: relative;
+  top: 73px;
+  left: 35%;
+  width: 430px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s ease;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: gray;
+}
+
+p {
+  color: white;
+  position: absolute;
+  font-family: Arial;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portrait:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.pic1 {
+  position: absolute;
+  top: 81px;
+  left: 1%;
+  width: 480px;
+}
+
+.pic1:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.pic2 {
+  position: absolute;
+  top: 80px;
+  left: 66%;
+  width: 479px;
+}
+
+.pic2:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.pic3 {
+  position: absolute;
+  top: 575px;
+  left: 1%;
+  width: 479px;
+}
+
+.pic3:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.pic4 {
+  position: absolute;
+  top: 735px;
+  left: 35.1%;
+  width: 925px;
+}
+
+.pic4:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}

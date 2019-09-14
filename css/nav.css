@@ -14,6 +14,7 @@ html {
   top: 0;
   width: 100%;
   right: 0;
+  z-index: 30;
 }
 
 /* Leaves some space between the logo and the leftmost border */

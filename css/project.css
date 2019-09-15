@@ -4,16 +4,6 @@ html {
   height: 1500px;
 }
 
-/* .project1 {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-} */
-/* img {
-  border-radius: 30px;
-  width: 350px;
-  height: 450px;
-} */
 .row {
   display: -ms-flexbox;
   /* IE10 */
@@ -34,9 +24,9 @@ html {
 }
 
 .column img {
-  margin-top: 80px;
-  margin-left: 100px;
-  vertical-align: middle;
+  margin-top: 20%;
+  margin-left: 35%;
+  /* vertical-align: middle; */
   width: 80%;
   border-radius: 30px;
 }
@@ -44,16 +34,16 @@ html {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 80%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .row {
     -ms-flex: 100%;
     flex: 100%;
-    max-width: 100%;
+    max-width: 80%;
   }

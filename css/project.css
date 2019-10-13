@@ -47,3 +47,26 @@ html {
     flex: 100%;
     max-width: 80%;
   }
+}
+
+.hoverEffect {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s ease;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: Black;
+}
+
+.hoverEffect:hover .overlay {
+  opacity: 0.8;
+}

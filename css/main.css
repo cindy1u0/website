@@ -8,7 +8,7 @@ html, body {
 /* Writes the texts */
 .main {
   color: white;
-  padding: 18%;
+  padding: 12%;
   text-align: center;
   font-size: 30px;
 }
@@ -48,7 +48,52 @@ html, body {
   padding-top: 0.5%;
 }
 
+.icons {
+  position: fixed;
+  top: 50%;
+  left: 30px;
+}
+
 /* Change the color of links on hover */
 a:hover {
+  color: Gray; 
+}
+
+.resume {
+  color: white;
+}
+
+.resume:hover{
   color: Gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.material-icons:hover{
+  fill:gray;
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33.3333333%;
+  /* IE10 */
+  flex: 33.3333333%;
+  max-width: 33.3333333%;
+  padding: 0 4px;
 }

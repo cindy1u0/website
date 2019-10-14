@@ -50,7 +50,7 @@ html, body {
 
 .icons {
   position: fixed;
-  top: 50%;
+  top: 35%;
   left: 30px;
 }
 
@@ -77,23 +77,4 @@ a:visited {
 
 .material-icons:hover{
   fill:gray;
-}
-
-.row {
-  display: -ms-flexbox;
-  /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 33.3333333%;
-  /* IE10 */
-  flex: 33.3333333%;
-  max-width: 33.3333333%;
-  padding: 0 4px;
 }
